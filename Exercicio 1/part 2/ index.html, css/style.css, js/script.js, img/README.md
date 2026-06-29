@@ -3,7 +3,7 @@ Markdown
 
 Este repositório contém a organização estrutural básica de um projeto web frontend. Abaixo está a explicação da utilidade de cada pasta e arquivo que compõem este projeto:
 
-## 📁 Explicação das Pastas
+## Explicação das Pastas
 
 * **`css/`**: Pasta destinada a armazenar todos os arquivos de folha de estilo (arquivos `.css`). Ela serve para manter as regras de design, cores e layout separadas da estrutura estrutural.
 * **`js/`**: Pasta que armazena os scripts em JavaScript. Centraliza a lógica, comportamentos dinâmicos e interatividades da página.
@@ -11,7 +11,7 @@ Este repositório contém a organização estrutural básica de um projeto web f
 
 ---
 
-## 📄 Explicação dos Arquivos
+## Explicação dos Arquivos
 
 * **`index.html`**: É o arquivo principal e a porta de entrada da aplicação web. Ele contém a estrutura essencial do site e os elementos textuais em HTML, além de fazer a ligação com os arquivos de estilo (CSS) e comportamento (JavaScript).
 * **`css/style.css`**: Arquivo onde é definido todo o design visual da página (regras de CSS), controlando as cores, fontes, alinhamentos, margens e responsividade do projeto.
