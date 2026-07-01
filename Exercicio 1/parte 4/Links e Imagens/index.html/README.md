@@ -21,13 +21,13 @@
     <section>
         <h2>Minha Imagem Local</h2>
         <p>Abaixo está uma imagem carregada localmente a partir da pasta de arquivos do projeto:</p>
-        <img src="https://br.pinterest.com/mariadoloresf/fotos-e-imagens/" alt="Logotipo ilustrativo do projeto de estudos frontend com fundo abstrato" width="400">
+        <img src="https://www.receiteria.com.br/wp-content/uploads/arroz-doce-tradicional-00.jpg" alt="Logotipo ilustrativo do projeto de estudos frontend com fundo abstrato" width="400">
     </section>
 
     <section id="contato">
         <h2>Contato</h2>
         <p>Esta é a seção de contato da página. Se você clicou no link interno acima, o seu navegador rolou a página automaticamente até aqui!</p>
-        <p>E-mail: estudante@exemplo.com</p>
+        <p>E-mail: bolaster1blox@gmail.com</p>
     </section>
 
 </body>
