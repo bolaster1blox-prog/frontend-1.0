@@ -21,7 +21,7 @@
     <section>
         <h2>Minha Imagem Local</h2>
         <p>Abaixo está uma imagem carregada localmente a partir da pasta de arquivos do projeto:</p>
-        <img src="img/imagem-escolhida.png" alt="Logotipo ilustrativo do projeto de estudos frontend com fundo abstrato" width="400">
+        <img src="https://br.pinterest.com/mariadoloresf/fotos-e-imagens/" alt="Logotipo ilustrativo do projeto de estudos frontend com fundo abstrato" width="400">
     </section>
 
     <section id="contato">
