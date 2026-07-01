@@ -1,35 +1,36 @@
-
 HTML
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha Página HTML Básica</title>
+    <title>Prática - Parte 3: HTML Básico</title>
 </head>
 <body>
 
-    <h1>Aprendendo Desenvolvimento Web</h1>
+    <h1>Aprendendo Desenvolvimento Web Frontend</h1>
 
-    <h2>Sobre o Frontend</h2>
-    <p>O desenvolvimento frontend é focado na criação da interface do usuário. É a parte do site com a qual as pessoas interagem diretamente através do navegador.</p>
-    <p>Dominar as tecnologias básicas é o primeiro passo para se tornar um desenvolvedor de sucesso.</p>
+    <h2>O Início da Jornada</h2>
+    <p>O desenvolvimento de software é uma área fascinante que transforma ideias em realidade digital por meio de códigos.</p>
+    <p>Para quem está começando, compreender a estrutura básica da web é o primeiro e mais importante passo para construir interfaces incríveis.</p>
 
-    <h2>Tecnologias Web Principais</h2>
+    <h2>Tecnologias Fundamentais</h2>
+    <p>Toda página moderna que acessamos na internet é construída utilizando um conjunto essencial de tecnologias que trabalham de forma integrada.</p>
+
+    <h3>Principais Tecnologias:</h3>
     <ul>
-        <li>HTML (Estrutura)</li>
-        <li>CSS (Estilização)</li>
-        <li>JavaScript (Comportamento)</li>
+        <li>HTML (Estruturação do conteúdo)</li>
+        <li>CSS (Estilização e design)</li>
+        <li>JavaScript (Comportamento e interatividade)</li>
     </ul>
 
-    <h2>Passos para Estudar Frontend</h2>
+    <h3>Passos para Estudar Frontend:</h3>
     <ol>
-        <li>Aprender a estruturar páginas com HTML básico.</li>
-        <li>Estilizar as páginas utilizando CSS (cores, fontes e layouts).</li>
-        <li>Adicionar dinamismo e lógica aos projetos usando JavaScript.</li>
+        <li>Dominar a semântica e as tags básicas do HTML.</li>
+        <li>Aprender estilização, seletores e layouts responsivos com CSS.</li>
+        <li>Entender a lógica de programação e manipulação do DOM com JavaScript.</li>
+        <li>Praticar criando projetos reais e hospedando-os no GitHub.</li>
     </ol>
-
-    <p>Praticar criando projetos simples ajuda a fixar cada um desses conceitos de forma sólida.</p>
 
 </body>
 </html>
