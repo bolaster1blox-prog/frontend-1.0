@@ -34,7 +34,6 @@ HTML
 
 </body>
 </html>
-
 # Explicação das Tags HTML Utilizadas
 
 Este documento explica brevemente a função de cada tag utilizada no exercício de HTML básico.
