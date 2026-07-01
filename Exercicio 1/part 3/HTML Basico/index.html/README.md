@@ -8,7 +8,7 @@ HTML
 </head>
 <body>
 
-    <h1>Aprendendo Desenvolvimento Web Frontend</h1>
+    <h1> Aprendendo Desenvolvimento Web Frontend </h1>
 
     <h2>O Início da Jornada</h2>
     <p>O desenvolvimento de software é uma área fascinante que transforma ideias em realidade digital por meio de códigos.</p>
