@@ -1,0 +1,65 @@
+#Diferença entre <div> e HTML Semântico
+No desenvolvimento web, a estrutura de uma página é feita usando tags HTML. No entanto, a forma como escolhemos essas tags impacta diretamente a acessibilidade,o SEO (otimização para motores de busca) e a manutenção do código.
+
+##O que é uma <div>?
+A tag <div> é um elemento genérico e não semântico. Isso significa que ela serve apenas como um "container" ou caixa vazia para agrupar elementos e aplicar estilos com CSS. Ela não diz absolutamente nada ao navegador ou aos leitores de tela sobre o tipo de conteúdo que está guardando.
+
+##O que é o HTML Semântico?
+Elementos semânticos são tags que possuem um significado claro tanto para o desenvolvedor quanto para o navegador. Elas descrevem claramente o seu propósito e o valor do conteúdo que carregam.
+
+Exemplos: <header>, <nav>, <main>, <article>, <section>, <footer>.
+
+##Tabela Comparativa
+
+###Característica / <div>(Não Semântico) / HTML Semântico
+
+###Significado	/ Nenhum. É apenas um bloco genérico.	/ Alto. Informa o tipo de conteúdo.
+
+###SEO (Google)	/ Neutro. O robô não entende a prioridade do bloco. /	Excelente. Ajuda os motores de busca a indexar a página.
+
+###Acessibilidade /	Ruim para leitores de tela se usada em excesso. /	Ótima. Ajuda pessoas com deficiência visual a navegar.
+
+###Legibilidade /	Gera o famoso "Div Soup" (código confuso). /	Código limpo, organizado e fácil de manter.
+
+##1. Estrutura com Blocos Genéricos (O jeito antigo/ruim)
+Quando usamos apenas div, o navegador enxerga tudo como caixas iguais, sem hierarquia real.
+
+HTML
+<div class="menu-superior">
+    <div class="logo">Meu Site</div>
+    <div class="links-navegacao">
+        <a href="#">Início</a> | <a href="#">Sobre</a>
+    </div>
+</div>
+
+<div class="conteudo-principal">
+    <div class="post-blog">
+        <h1>Entendendo HTML</h1>
+        <p>Este é um texto de exemplo dentro de uma div.</p>
+    </div>
+</div>
+
+<div class="rodape">
+    <p>&copy; 2026 - Todos os direitos reservados.</p>
+</div>
+
+2. Estrutura com Blocos Semânticos (O jeito moderno/correto)
+Agora, substituindo as caixas genéricas por tags que fazem sentido para o contexto:
+HTML
+<header>
+    <div class="logo">Meu Site</div>
+    <nav>
+        <a href="#">Início</a> | <a href="#">Sobre</a>
+    </nav>
+</header>
+
+<main>
+    <article>
+        <h1>Entendendo HTML</h1>
+        <p>Este é um texto de exemplo dentro de um artigo bem estruturado.</p>
+    </article>
+</main>
+
+<footer>
+    <p>&copy; 2026 - Todos os direitos reservados.</p>
+</footer>
