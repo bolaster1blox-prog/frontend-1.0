@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MinhaLoja - Home</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">MinhaLoja</a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Início</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="hero-container">
+        <section class="hero-content">
+            <h1>Bem-vindo à MinhaLoja!</h1>
+            <p>Encontre os melhores periféricos e acessórios gamer com os melhores preços do mercado. Equipamentos de alto desempenho para elevar a sua gameplay ao próximo nível.</p>
+            <div class="hero-buttons">
+                <a href="produtos.html" class="btn-primary">Ver Produtos</a>
+                <a href="contato.html" class="btn-secondary">Fale Conosco</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 MinhaLoja - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MinhaLoja - Produtos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">MinhaLoja</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="produtos.html" class="active">Produtos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="products-page-container">
+        <h2 class="section-title">Nossos Equipamentos</h2>
+        
+        <section class="products-grid">
+            
+            <article class="product-card">
+                <div class="card-image">
+                    <img src="img/teclado.jpg" alt="Teclado Mecânico">
+                </div>
+                <div class="card-info">
+                    <h3>Teclado Mecânico Gamer</h3>
+                    <p class="price">R$ 299,90</p>
+                    <a href="produto-teclado.html" class="btn-card">Ver Detalhes</a>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="card-image">
+                    <img src="img/mouse.jpg" alt="Mouse Gamer">
+                </div>
+                <div class="card-info">
+                    <h3>Mouse Óptico Gamer</h3>
+                    <p class="price">R$ 149,90</p>
+                    <a href="produto-mouse.html" class="btn-card">Ver Detalhes</a>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="card-image">
+                    <img src="img/headset.jpg" alt="Headset Gamer">
+                </div>
+                <div class="card-info">
+                    <h3>Headset Surround 7.1</h3>
+                    <p class="price">R$ 249,90</p>
+                    <a href="produto-headset.html" class="btn-card">Ver Detalhes</a>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="card-image">
+                    <img src="img/monitor.jpg" alt="Monitor Gamer">
+                </div>
+                <div class="card-info">
+                    <h3>Monitor 144Hz 1ms</h3>
+                    <p class="price">R$ 1.199,90</p>
+                    <a href="produto-monitor.html" class="btn-card">Ver Detalhes</a>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="card-image">
+                    <img src="img/mochila.jpg" alt="Mochila Reforçada">
+                </div>
+                <div class="card-info">
+                    <h3>Mochila Tech Impermeável</h3>
+                    <p class="price">R$ 189,90</p>
+                    <a href="produto-mochila.html" class="btn-card">Ver Detalhes</a>
+                </div>
+            </article>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 MinhaLoja - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
+/* --- Reset e Configurações Globais --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* --- Menu de Navegação Global --- */
+header {
+    background-color: #1a1a24;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.logo {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.logo:hover {
+    color: #7b2cbf; /* Efeito hover no Logo */
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #ccc;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+/* Efeito Hover e Estado Ativo no Menu */
+.nav-links a:hover, 
+.nav-links a.active {
+    color: #fff;
+    background-color: #7b2cbf;
+}
+
+/* --- Rodapé Global --- */
+footer {
+    background-color: #1a1a24;
+    color: #aaa;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+}
+
+/* --- Estilos da Home (Página de Boas-Vindas) --- */
+.hero-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.hero-content {
+    max-width: 700px;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #1a1a24;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.btn-primary {
+    background-color: #7b2cbf;
+    color: #fff;
+    padding: 12px 28px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s ease, transform 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #5a189a;
+    transform: translateY(-2px); /* Efeito hover interativo */
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: #7b2cbf;
+    border: 2px solid #7b2cbf;
+    padding: 12px 28px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: #7b2cbf;
+    color: #fff;
+}
+
+/* --- Estilos da Grade de Produtos --- */
+.products-page-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+/* Flexbox estruturando a grade de produtos */
+.products-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.product-card {
+    background-color: #fff;
+    width: calc(33.333% - 20px);
+    min-width: 280px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efeito Hover no Card Inteiro */
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.card-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-info {
+    padding: 20px;
+    text-align: center;
+}
+
+.card-info h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.card-info .price {
+    font-size: 1.1rem;
+    color: #27ae60;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.btn-card {
+    display: block;
+    background-color: #1a1a24;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.btn-card:hover {
+    background-color: #7b2cbf;
+}
+
+/* --- Media Query para Telas Menores (Responsividade) --- */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .nav-links {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .hero-content h1 {
+        font-size: 2.2rem;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+    }
+
+    .product-card {
+        width: 100%; /* Em telas móveis, os cards ocupam a largura toda */
+    }
+}
