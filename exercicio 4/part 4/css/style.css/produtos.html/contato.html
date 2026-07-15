@@ -1,0 +1,263 @@
+<div class="product-card">
+    <img src="imagens/teclado.jpg" alt="Teclado Mecânico">
+    <h3>Teclado Mecânico</h3>
+    <p>R$ 299,90</p>
+    <a href="produto-teclado.html" class="btn-detalhes">Ver Detalhes</a>
+</div>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teclado Mecânico - Detalhes do Produto</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">MinhaLoja</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="product-detail-container">
+        <section class="product-detail">
+            <div class="product-image">
+                <img src="imagens/teclado.jpg" alt="Teclado Mecânico">
+            </div>
+            
+            <div class="product-info">
+                <h1>Teclado Mecânico Gamer</h1>
+                <p class="price">R$ 299,90</p>
+                
+                <p class="description">
+                    Experimente a máxima precisão e velocidade com o nosso Teclado Mecânico Gamer. Equipado com switches de alta durabilidade, feedback tátil silencioso e iluminação RGB customizável para combinar com o seu setup.
+                </p>
+
+                <h3>Características Principais:</h3>
+                <ul class="features-list">
+                    <li>Switch Mecânico Outemu Red (Silencioso e linear)</li>
+                    <li>Iluminação RGB com 18 modos de efeitos</li>
+                    <li>Layout ABNT2 com teclas de dupla injeção</li>
+                    <li>Cabo trançado de 1.8 metros removível</li>
+                    <li>Tecnologia Anti-Ghosting em todas as teclas</li>
+                </ul>
+
+                <a href="contato.html" class="btn-contact">Entrar em Contato</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 MinhaLoja - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - MinhaLoja</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">MinhaLoja</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contact-container">
+        <section class="contact-info">
+            <h2>Fale Conosco</h2>
+            <p>Tem alguma dúvida sobre nossos produtos ou quer fazer uma encomenda especial? Preencha o formulário ao lado ou utilize nossos canais de atendimento direto.</p>
+            
+            <div class="info-channels">
+                <p><strong>E-mail:</strong> suporte@minhaloja.com</p>
+                <p><strong>Telefone:</strong> (11) 99999-9999</p>
+                <p><strong>Endereço:</strong> Av. Paulista, 1000 - São Paulo, SP</p>
+            </div>
+        </section>
+
+        <section class="contact-form-section">
+            <form class="contact-form" action="#" method="POST">
+                <div class="form-group">
+                    <label for="nome">Seu Nome:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Seu E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="exemplo@email.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" placeholder="Como podemos te ajudar?" required></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 MinhaLoja - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
+/* --- Estilos da Página de Detalhes do Produto --- */
+.product-detail-container {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.product-detail {
+    display: flex;
+    gap: 40px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-image img {
+    max-width: 400px;
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.product-info {
+    flex: 1;
+}
+
+.product-info h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.product-info .price {
+    font-size: 1.5rem;
+    color: #27ae60;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.product-info .description {
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.features-list {
+    margin: 15px 0 25px 20px;
+    color: #555;
+}
+
+.features-list li {
+    margin-bottom: 8px;
+}
+
+.btn-contact {
+    display: inline-block;
+    background-color: #7b2cbf; /* Roxo combinando com o cabeçalho do exercício */
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.btn-contact:hover {
+    background-color: #5a189a;
+}
+
+/* --- Estilos da Página de Contato --- */
+.contact-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding: 20px;
+}
+
+.contact-info h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.info-channels p {
+    margin: 12px 0;
+    color: #555;
+}
+
+.contact-form {
+    background: #f9f9f9;
+    padding: 25px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-group input, 
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+.btn-submit {
+    width: 100%;
+    background-color: #7b2cbf;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-submit:hover {
+    background-color: #5a189a;
+}
+
+/* Responsividade Básica */
+@media (max-width: 768px) {
+    .product-detail, .contact-container {
+        flex-direction: column;
+        grid-template-columns: 1fr;
+    }
+}
