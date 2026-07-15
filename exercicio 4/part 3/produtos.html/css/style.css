@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Produtos - SuperStore</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo">
+            <h1>SuperStore</h1>
+        </div>
+        <nav class="nav-menu">
+            <a href="index.html" class="nav-link">Início</a>
+            <a href="produtos.html" class="nav-link active">Produtos</a>
+            <a href="contato.html" class="nav-link">Contato</a>
+        </nav>
+    </header>
+
+    <main class="gallery-container">
+        <h2 class="gallery-title">Nossa Galeria de Produtos</h2>
+        
+        <section class="products-grid">
+            
+            <article class="product-card">
+                <div class="product-image-placeholder">⌨️</div>
+                <h3 class="product-name">Teclado Mecânico Aurora</h3>
+                <p class="product-description">Teclado RGB com switches silenciosos e alta durabilidade para suas sessões de jogos ou trabalho.</p>
+                <span class="product-price">R$ 299,90</span>
+                <a href="detalhes-teclado.html" class="btn-details">Ver Detalhes</a>
+            </article>
+
+            <article class="product-card">
+                <div class="product-image-placeholder">🖱️</div>
+                <h3 class="product-name">Mouse Gamer Pulse</h3>
+                <p class="product-description">Mouse ergonômico com sensor de alta precisão de até 12000 DPI e botões laterais programáveis.</p>
+                <span class="product-price">R$ 159,90</span>
+                <a href="detalhes-mouse.html" class="btn-details">Ver Detalhes</a>
+            </article>
+
+            <article class="product-card">
+                <div class="product-image-placeholder">🎧</div>
+                <h3 class="product-name">Headset Studio Lite</h3>
+                <p class="product-description">Isolamento acústico passivo, som surround de alta fidelidade e microfone removível ultra nítido.</p>
+                <span class="product-price">R$ 249,90</span>
+                <a href="detalhes-headset.html" class="btn-details">Ver Detalhes</a>
+            </article>
+
+            <article class="product-card">
+                <div class="product-image-placeholder">🖥️</div>
+                <h3 class="product-name">Monitor 24 Vision</h3>
+                <p class="product-description">Tela IPS Full HD de 24 polegadas com taxa de atualização de 144Hz para o máximo de fluidez visual.</p>
+                <span class="product-price">R$ 899,90</span>
+                <a href="detalhes-monitor.html" class="btn-details">Ver Detalhes</a>
+            </article>
+
+            <article class="product-card">
+                <div class="product-image-placeholder">🎒</div>
+                <h3 class="product-name">Mochila TechPack</h3>
+                <p class="product-description">Mochila resistente à água com compartimento dedicado e acolchoado para laptops de até 15.6".</p>
+                <span class="product-price">R$ 189,90</span>
+                <a href="detalhes-mochila.html" class="btn-details">Ver Detalhes</a>
+            </article>
+
+        </section>
+    </main>
+
+</body>
+</html>
