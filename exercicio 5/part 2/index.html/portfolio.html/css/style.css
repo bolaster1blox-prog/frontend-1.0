@@ -1,0 +1,190 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0"
+  
+  <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Responsiva - Início</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>TechStore</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="portfolio.html">Portfólio</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="boas-vindas">
+            <h2>Bem-vindo à TechStore</h2>
+            <p>Os melhores produtos de tecnologia com os melhores preços do mercado!</p>
+            <a href="produtos.html" class="btn">Ver Galeria de Produtos</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 TechStore - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Loja Responsiva</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>TechStore</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="portfolio.html">Portfólio</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="portfolio-info">
+            <h2>Portfólio do Projeto</h2>
+            <p><strong>Desenvolvedor(a):</strong> Seu Nome Aqui</p>
+            
+            <h3>Objetivo do Projeto</h3>
+            <p>Criar um e-commerce fictício utilizando técnicas de design responsivo com foco em Mobile First.</p>
+            
+            <h3>Tecnologias Usadas</h3>
+            <ul>
+                <li>HTML5 Semântico</li>
+                <li>CSS3 (Flexbox e Media Queries)</li>
+                <li>Git e GitHub</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 TechStore - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
+
+/* Reset básico e tipografia */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 10px;
+}
+
+/* Cabeçalho e Menu (Empilhado para Celular) */
+header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column; /* Menu vertical para telas pequenas */
+    gap: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #34495e;
+    display: block;
+    padding: 12px; /* Área de clique confortável */
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #1abc9c;
+}
+
+/* Conteúdo Principal */
+main {
+    margin: 20px 0;
+}
+
+.boas-vindas, .portfolio-info {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.boas-vindas h2, .portfolio-info h2 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.portfolio-info h3 {
+    margin-top: 15px;
+    color: #34495e;
+}
+
+.portfolio-info ul {
+    list-style-position: inside;
+    text-align: left;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* Botão com Área de Clique Confortável */
+.btn {
+    display: inline-block;
+    background-color: #1abc9c;
+    color: white;
+    padding: 14px 20px; /* Área de toque ampla para celular */
+    margin-top: 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #16a085;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #2c3e50;
+    color: white;
+    border-radius: 8px;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
