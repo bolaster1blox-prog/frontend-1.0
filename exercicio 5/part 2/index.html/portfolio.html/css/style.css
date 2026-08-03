@@ -97,7 +97,6 @@ body {
     padding: 10px;
 }
 
-/* Cabeçalho e Menu (Empilhado para Celular) */
 header {
     background-color: #2c3e50;
     color: #fff;
@@ -113,7 +112,7 @@ header h1 {
 nav ul {
     list-style: none;
     display: flex;
-    flex-direction: column; /* Menu vertical para telas pequenas */
+    flex-direction: column; 
     gap: 10px;
 }
 
@@ -122,7 +121,7 @@ nav a {
     text-decoration: none;
     background-color: #34495e;
     display: block;
-    padding: 12px; /* Área de clique confortável */
+    padding: 12px; 
     border-radius: 5px;
     font-weight: bold;
 }
@@ -131,7 +130,6 @@ nav a:hover {
     background-color: #1abc9c;
 }
 
-/* Conteúdo Principal */
 main {
     margin: 20px 0;
 }
@@ -161,12 +159,11 @@ main {
     margin-top: 10px;
 }
 
-/* Botão com Área de Clique Confortável */
 .btn {
     display: inline-block;
     background-color: #1abc9c;
     color: white;
-    padding: 14px 20px; /* Área de toque ampla para celular */
+    padding: 14px 20px; 
     margin-top: 15px;
     text-decoration: none;
     border-radius: 5px;
@@ -177,7 +174,6 @@ main {
     background-color: #16a085;
 }
 
-/* Rodapé */
 footer {
     text-align: center;
     padding: 15px;
